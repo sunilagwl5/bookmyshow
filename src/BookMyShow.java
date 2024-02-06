@@ -96,7 +96,7 @@ public class BookMyShow {
         if (payment) {
             System.out.println("Yay Booking done");
             System.out.println("Alloted Screen : " + booking.getScreen().getScreenNo());
-            System.out.println("Alloted Seat No." + booking.getScreen().getSeats().get(0));
+            System.out.println("Alloted Seat No." + booking.getScreen().getSeats().get(0).getSeatNo());
             System.out.println("Start Time is : " + booking.getShow().getStartTime() + " PM");
             System.out.println("Movie : " + booking.getShow().getMovie().getName());
             System.out.println("Payment Done :" + booking.getPayment().isPaymentSuccessful());
