@@ -1,0 +1,9 @@
+version: '3'
+services:
+  bms:
+    build:
+      context: .
+      dockerfile: BMSDocker
+    tty: true
+    ports:
+      - "8080:8080"
