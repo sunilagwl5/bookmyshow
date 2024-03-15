@@ -8,8 +8,6 @@ public class BookmyshowApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(BookmyshowApplication.class, args);
-		BookMyShowInitializer bookMyShowInitializer = new BookMyShowInitializer();
-		bookMyShowInitializer.start();
 	}
 
 }
